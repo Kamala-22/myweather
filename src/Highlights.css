@@ -1,0 +1,49 @@
+
+.highlights-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlights-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .highlights-grid {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5,1fr);
+    /* gap: 40px; */
+    width: 78vw;
+    height: 60vh;
+    margin-left: 20%;
+    font-size: 25px;
+    
+    
+  
+  }
+  .highlight-item {
+    flex: 1 1 calc(22% - 10px); /* Four boxes horizontally with proper gap */
+    background-color: rgba(170, 136, 170, 0.9);
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 10px; /* Ensure space below each row */
+
+  }
+  
+  .highlight-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .highlight-value {
+    font-size: 1.2em;
+  }
+  
